@@ -1,0 +1,274 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 1200px;
+    min-height: 2000px;
+    margin: 0px 50px;
+    border: solid black;
+}
+
+
+#titleNavBar {
+	display: flex;
+}
+
+#title a {
+/* position: absolute; */
+	width: 513px;
+	height: 52px;
+	left: 20px;
+	top: 42px;
+	color: #3E4F7F;
+	font-family: arial;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 41px;
+	align-items: center;
+	letter-spacing: -0.017em;
+	display: flex;
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+
+#hotline {
+/* position: absolute; */
+	width: 593px;
+	height: 42px;
+	left: 704px;
+	top: 0px;
+	font-family: arial;
+	font-style: normal;
+	font-size: 10px;
+	/* line-height: 29px; */
+	display: flex;
+	align-items: top;
+	letter-spacing: -0.017em;
+	color: #FF0606;
+	justify-content: space-between;
+}
+
+#hotline a{
+	font-family: arial;
+	color: #3E4F7F;
+}
+
+#quickLinks a {
+	font-size: 15px;
+	font-family: arial;
+	width: 668px;
+	height: 56px;
+	left: 704px;
+	top: 81px;
+	text-decoration: none;
+	color: #3E4F7F;
+	padding-right: 15px;
+}
+
+.backgroundImg {
+	width: 1200px
+}
+
+#resourceRow {
+	display: flex;
+	margin-left: 20px;
+	margin-top: 10px;
+	justify-content: space-around;
+}
+
+#firstSecondResource{
+	/* width: 400px; */
+	/* margin-right: 100px; */
+}
+
+#firstResource {
+	margin-bottom: 20px;
+	align-content: middle;
+	width: 300px;
+}
+
+#firstResource a {
+	font-family: arial;
+	font-size: 20px;
+	color: #3E4F7F;
+	text-decoration: none;
+}
+
+#familyPhoto {
+	width: 300px;
+}
+
+#secondResource p {
+	font-family: arial;
+	font-size: 15px;
+	color: #3E4F7F;
+	text-decoration: none;
+}
+
+#secondResource a {
+	font-family: arial;
+	font-size: 20px;
+	color: #3E4F7F;
+	text-decoration: none;
+}
+
+#ptsdPhoto {
+	width: 300px;
+}
+
+#thirdResource {
+	width: 300px;
+	font-family: arial;
+	font-size: 15px;
+	color: #3E4F7F;
+}
+
+
+#thirdResource a {
+	font-family: arial;
+	font-size: 20px;
+	color: #3E4F7F;
+	text-decoration: none;
+}
+
+#loginTitle {
+	font-family: arial;
+	font-size: 20px;
+	color: #3E4F7F;
+	text-decoration: none;
+}
+
+
+
+#firstResource {
+	font-family: arial;
+	font-size: 20px;
+	color: #3E4F7F;
+	text-decoration: none;
+}
+
+#firstResource {
+	font-family: arial;
+	font-size: 20px;
+	color: #3E4F7F;
+	text-decoration: none;
+}
+
+#firstResource p {
+	font-family: arial;
+	font-size: 15px;
+	color: #3E4F7F;
+	text-decoration: none;
+}
+
+#registerTitle p {
+	font-family: arial;
+	font-size: 20px;
+	color: #3E4F7F;
+	text-decoration: none;
+}
+
+#register {
+	display: flex;
+	gap: 10px;
+	font-family: arial;
+	font-size: 15px;
+	color: #3E4F7F;
+}
+
+
+#login {
+	display: flex;
+	gap: 10px;
+}
+
+#addStory {
+	font-family: arial;
+	font-size: 20px;
+	color: #3E4F7F;
+	text-decoration: none;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#addStorySub {
+	font-family: arial;
+	font-size: 15px;
+	color: #3E4F7F;
+	text-decoration: none;
+	margin-left: 20px;
+
+}
+
+#addStorySub button {
+	cursor: pointer;
+
+}
+
+#addStorySub a {
+	background: #efefef;
+	border: solid #767676;
+	border-width: thin;
+	text-decoration: none;
+	color: black;
+	border-radius: 2px;
+}
+
+#successTitle {
+	font-family: arial;
+	font-size: 20px;
+	color: #3E4F7F;
+	text-decoration: none;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#successStories {
+	font-family: arial;
+	font-size: 15px;
+	color: #3E4F7F;
+	text-decoration: none;
+	margin-left: 20px;
+	margin-top: 20px;
+	display: flex;
+}
+
+#storyCol1 {
+	margin-right: 100px;
+}
+
+#storyCol2 {
+	width: 700px;
+	align-content: center;
+	
+}
+
+#storyEdit {
+	display: flex;
+	align-content: center;
+	
+}
+
+#storyAuthor {
+	margin-right: 50px;
+}
+
+#edit {
+	align-self: center;
+	
+}
+
+#author{
+	text-align: right;	
+}
+
+#mustBeLoggedIn {
+	font-family: arial;
+	font-size: 10px;
+	color: #3E4F7F;
+}
+	
